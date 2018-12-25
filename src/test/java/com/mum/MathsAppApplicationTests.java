@@ -24,7 +24,7 @@ public class MathsAppApplicationTests {
 	
 	@Test
 	public void testAdd() {
-		int expected=10;
+		int expected=9;
 		int actual=calculatorService.add(4, 6);
 		assertEquals(expected, actual);
 		
