@@ -1,4 +1,5 @@
 // best guide to learn jenkins
 
 https://docs.bitnami.com/oci/how-to/create-ci-pipeline-jenkins-oracle/
+https://jenkins-le-guide-complet.github.io/html/sect-first-steps-first-job.html
 
