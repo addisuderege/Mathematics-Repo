@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Title: Maths-app
+Implementation-Version: 0.0.1-SNAPSHOT
+Built-By: Emmanuel
+Implementation-Vendor-Id: com.mum
+Build-Jdk: 1.8.0_101
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-bo
+ ot-starter-parent/Maths-app
+Created-By: Maven Integration for Eclipse
+
