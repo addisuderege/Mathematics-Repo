@@ -9,7 +9,7 @@ import com.mum.service.ICalculatorService;
 
 @RestController
 public class MathController {
-	//@Autowired
+	@Autowired
 	private ICalculatorService calculator;
 	
 	@GetMapping("/sum")
