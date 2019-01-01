@@ -39,6 +39,11 @@ public class MathsAppApplicationTests {
 		int actual=calculatorService.substract(10, 6);
 		assertEquals(expected, actual);
 	}
+	
+	@Test
+	public void testMultiply() {		
+		assertEquals(15,calculatorService.multiply(4, 6));
+	}
 
 }
 
