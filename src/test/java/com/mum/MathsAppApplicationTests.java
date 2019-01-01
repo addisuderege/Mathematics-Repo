@@ -19,8 +19,8 @@ public class MathsAppApplicationTests {
 
 	private ICalculatorService calculatorService;
 	
-	@Autowired
-	private MockMvc mockMvc;
+	//@Autowired
+	//private MockMvc mockMvc;
 	
 	@Before
 	public void setUp() {
