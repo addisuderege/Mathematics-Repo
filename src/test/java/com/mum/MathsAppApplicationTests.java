@@ -5,8 +5,10 @@ import static org.junit.Assert.assertEquals;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
+import org.springframework.test.web.servlet.MockMvc;
 
 import com.mum.service.CalculatorServiceImpl;
 import com.mum.service.ICalculatorService;
@@ -17,9 +19,13 @@ public class MathsAppApplicationTests {
 
 	private ICalculatorService calculatorService;
 	
+	@Autowired
+	private MockMvc mockMvc;
+	
 	@Before
 	public void setUp() {
 		calculatorService=new CalculatorServiceImpl();
+		//mockMvc=MockMvcBuilder.
 	}
 	
 	@Test
@@ -42,8 +48,11 @@ public class MathsAppApplicationTests {
 	
 	@Test
 	public void testMultiply() {		
-		assertEquals(15,calculatorService.multiply(4, 6));
+		assertEquals(24,calculatorService.multiply(4, 6));
 	}
+	
+	
+
 
 }
 
