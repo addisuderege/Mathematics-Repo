@@ -26,5 +26,9 @@ public class MathController {
 	public Integer getProduct(@RequestParam("num1") int num1,@RequestParam("num2") int num2) {
 		return calculator.multiply(num1, num2);
 	}
+	
+	public void hi() {
+		System.out.println("Hello there");
+	}
 
 }
