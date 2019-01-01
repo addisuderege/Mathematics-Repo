@@ -21,5 +21,10 @@ public class MathController {
 	public Integer getDifference(@RequestParam("num1") int num1,@RequestParam("num2") int num2) {
 		return calculator.substract(num1, num2);
 	}
+	
+	@GetMapping("/product")
+	public Integer getProduct(@RequestParam("num1") int num1,@RequestParam("num2") int num2) {
+		return calculator.multiply(num1, num2);
+	}
 
 }

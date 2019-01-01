@@ -21,4 +21,9 @@ public class CalculatorImpl implements ICalculator {
 
 	}
 
+	@Override
+	public int multiply(int x, int y) {
+		return x*y;
+	}
+
 }

@@ -21,4 +21,9 @@ public class CalculatorServiceImpl implements ICalculatorService {
 
 	}
 
+	@Override
+	public int multiply(int x, int y) {
+		return x*y;
+	}
+
 }
