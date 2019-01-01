@@ -46,7 +46,7 @@ public class MathsAppApplicationTests {
 	
 	@Test
 	public void testMultiply() {		
-		assertEquals(25,calculatorService.multiply(4, 6));
+		assertEquals(24,calculatorService.multiply(4, 6));
 	}
 	
 	
